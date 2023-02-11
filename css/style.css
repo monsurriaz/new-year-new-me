@@ -178,12 +178,17 @@ p.plan_desc {
 /* positive mind */
 .positive__mind--inner {
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("../images/watch.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: normal;
     border-radius: 8px;
     padding: 60px 65px;
 }
 
 #positive__mind h2 {
     color: #ffffff;
+    max-width: 50%;
 }
 
 
